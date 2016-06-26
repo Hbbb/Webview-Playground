@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E3B122131D1E08D1004C6413 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B122121D1E08D1004C6413 /* AppDelegate.swift */; };
-		E3B122151D1E08D1004C6413 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B122141D1E08D1004C6413 /* ViewController.swift */; };
+		E3B122151D1E08D1004C6413 /* TagConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B122141D1E08D1004C6413 /* TagConfigViewController.swift */; };
 		E3B122181D1E08D1004C6413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B122161D1E08D1004C6413 /* Main.storyboard */; };
 		E3B1221A1D1E08D1004C6413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B122191D1E08D1004C6413 /* Assets.xcassets */; };
-		E3B1221D1D1E08D1004C6413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B1221B1D1E08D1004C6413 /* LaunchScreen.storyboard */; };
 		E3B122281D1E08D1004C6413 /* Ad_Tag_PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B122271D1E08D1004C6413 /* Ad_Tag_PlaygroundTests.swift */; };
 		E3B122331D1E08D1004C6413 /* Ad_Tag_PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B122321D1E08D1004C6413 /* Ad_Tag_PlaygroundUITests.swift */; };
+		E3B122411D1F4CD5004C6413 /* TagPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B122401D1F4CD5004C6413 /* TagPreviewViewController.swift */; };
+		E3F26A211D1F546E006894C4 /* TagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F26A201D1F546E006894C4 /* TagModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +37,9 @@
 /* Begin PBXFileReference section */
 		E3B1220F1D1E08D0004C6413 /* Ad Tag Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ad Tag Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B122121D1E08D1004C6413 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3B122141D1E08D1004C6413 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3B122141D1E08D1004C6413 /* TagConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagConfigViewController.swift; sourceTree = "<group>"; };
 		E3B122171D1E08D1004C6413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3B122191D1E08D1004C6413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3B1221C1D1E08D1004C6413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3B1221E1D1E08D1004C6413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3B122231D1E08D1004C6413 /* Ad Tag PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ad Tag PlaygroundTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B122271D1E08D1004C6413 /* Ad_Tag_PlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ad_Tag_PlaygroundTests.swift; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		E3B1222E1D1E08D1004C6413 /* Ad Tag PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ad Tag PlaygroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B122321D1E08D1004C6413 /* Ad_Tag_PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ad_Tag_PlaygroundUITests.swift; sourceTree = "<group>"; };
 		E3B122341D1E08D1004C6413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B122401D1F4CD5004C6413 /* TagPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagPreviewViewController.swift; sourceTree = "<group>"; };
+		E3F26A201D1F546E006894C4 /* TagModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				E3B122121D1E08D1004C6413 /* AppDelegate.swift */,
-				E3B122141D1E08D1004C6413 /* ViewController.swift */,
+				E3B122141D1E08D1004C6413 /* TagConfigViewController.swift */,
+				E3B122401D1F4CD5004C6413 /* TagPreviewViewController.swift */,
 				E3B122161D1E08D1004C6413 /* Main.storyboard */,
 				E3B122191D1E08D1004C6413 /* Assets.xcassets */,
-				E3B1221B1D1E08D1004C6413 /* LaunchScreen.storyboard */,
 				E3B1221E1D1E08D1004C6413 /* Info.plist */,
+				E3F26A201D1F546E006894C4 /* TagModel.swift */,
 			);
 			path = "Ad Tag Playground";
 			sourceTree = "<group>";
@@ -229,7 +232,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3B1221D1D1E08D1004C6413 /* LaunchScreen.storyboard in Resources */,
 				E3B1221A1D1E08D1004C6413 /* Assets.xcassets in Resources */,
 				E3B122181D1E08D1004C6413 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3B122151D1E08D1004C6413 /* ViewController.swift in Sources */,
+				E3B122151D1E08D1004C6413 /* TagConfigViewController.swift in Sources */,
+				E3B122411D1F4CD5004C6413 /* TagPreviewViewController.swift in Sources */,
+				E3F26A211D1F546E006894C4 /* TagModel.swift in Sources */,
 				E3B122131D1E08D1004C6413 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,14 +303,6 @@
 				E3B122171D1E08D1004C6413 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E3B1221B1D1E08D1004C6413 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3B1221C1D1E08D1004C6413 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -482,6 +478,7 @@
 				E3B122391D1E08D1004C6413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3B1223A1D1E08D1004C6413 /* Build configuration list for PBXNativeTarget "Ad Tag PlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +487,7 @@
 				E3B1223C1D1E08D1004C6413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3B1223D1D1E08D1004C6413 /* Build configuration list for PBXNativeTarget "Ad Tag PlaygroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +496,7 @@
 				E3B1223F1D1E08D1004C6413 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
